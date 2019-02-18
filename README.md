@@ -1,9 +1,10 @@
 # ACF PRO Installer
 
+*an actually maintained fork of [PhilippBaschke/acf-pro-installer](https://github.com/PhilippBaschke/acf-pro-installer)*
+
 [![Packagist](https://img.shields.io/packagist/v/schliflo/acf-pro-installer.svg?maxAge=3600)](https://packagist.org/packages/schliflo/acf-pro-installer)
 [![Packagist](https://img.shields.io/packagist/l/schliflo/acf-pro-installer.svg?maxAge=2592000)](https://github.com/schliflo/acf-pro-installer/blob/master/LICENSE)
 [![Travis](https://img.shields.io/travis/schliflo/acf-pro-installer.svg?maxAge=3600)](https://travis-ci.org/schliflo/acf-pro-installer)
-[![Coveralls](https://img.shields.io/coveralls/schliflo/acf-pro-installer.svg?maxAge=3600)](https://coveralls.io/github/schliflo/acf-pro-installer)
 
 A composer plugin that makes installing [ACF PRO] with [composer] easier. 
 
