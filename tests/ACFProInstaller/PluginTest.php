@@ -1,8 +1,8 @@
-<?php namespace PhilippBaschke\ACFProInstaller\Test;
+<?php namespace schliflo\ACFProInstaller\Test;
 
 use Composer\Installer\PackageEvents;
 use Composer\Plugin\PluginEvents;
-use PhilippBaschke\ACFProInstaller\Plugin;
+use schliflo\ACFProInstaller\Plugin;
 
 class PluginTest extends \PHPUnit_Framework_TestCase
 {
@@ -970,7 +970,7 @@ class PluginTest extends \PHPUnit_Framework_TestCase
     {
         // Expect an Exception
         $this->setExpectedException(
-            'PhilippBaschke\ACFProInstaller\Exceptions\MissingKeyException',
+            'schliflo\ACFProInstaller\Exceptions\MissingKeyException',
             'ACF_PRO_KEY'
         );
 

@@ -1,6 +1,6 @@
-<?php namespace PhilippBaschke\ACFProInstaller\Test;
+<?php namespace schliflo\ACFProInstaller\Test;
 
-use PhilippBaschke\ACFProInstaller\RemoteFilesystem;
+use schliflo\ACFProInstaller\RemoteFilesystem;
 
 class RemoteFilesystemTest extends \PHPUnit_Framework_TestCase
 {

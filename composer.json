@@ -1,12 +1,12 @@
 {
-  "name": "philippbaschke/acf-pro-installer",
+  "name": "schliflo/acf-pro-installer",
   "description": "An install helper for Advanced Custom Fields PRO",
   "type": "composer-plugin",
   "license": "MIT",
   "authors": [
     {
-      "name": "Philipp Baschke",
-      "email": "philipp@baschke.com"
+      "name": "Florian Schlittenbauer",
+      "email": "servus@schliflo.de"
     }
   ],
   "keywords": [
@@ -24,10 +24,10 @@
     "satooshi/php-coveralls": "1.*"
   },
   "autoload": {
-    "psr-4": { "PhilippBaschke\\ACFProInstaller\\": "src/ACFProInstaller" }
+    "psr-4": { "schliflo\\ACFProInstaller\\": "src/ACFProInstaller" }
   },
   "extra": {
-    "class": "PhilippBaschke\\ACFProInstaller\\Plugin"
+    "class": "schliflo\\ACFProInstaller\\Plugin"
   },
   "scripts": {
     "lint": "phpcs src tests --standard=PSR2",
