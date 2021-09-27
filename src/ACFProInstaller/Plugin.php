@@ -173,7 +173,7 @@ class Plugin implements PluginInterface, EventSubscriberInterface
      */
     protected function getPackageFromOperation(OperationInterface $operation)
     {
-        if ($operation->getJobType() === 'update') {
+        if ($operation->getOperationType() === 'update') {
             return $operation->getTargetPackage();
         }
         return $operation->getPackage();
