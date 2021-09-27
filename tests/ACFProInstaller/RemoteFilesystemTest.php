@@ -1,6 +1,6 @@
-<?php namespace schliflo\ACFProInstaller\Test;
+<?php namespace dphiffer\ACFProInstaller\Test;
 
-use schliflo\ACFProInstaller\RemoteFilesystem;
+use dphiffer\ACFProInstaller\RemoteFilesystem;
 
 class RemoteFilesystemTest extends \PHPUnit_Framework_TestCase
 {

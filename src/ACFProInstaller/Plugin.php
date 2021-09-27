@@ -1,4 +1,4 @@
-<?php namespace schliflo\ACFProInstaller;
+<?php namespace dphiffer\ACFProInstaller;
 
 use Composer\Composer;
 use Composer\DependencyResolver\Operation\OperationInterface;
@@ -10,7 +10,7 @@ use Composer\Plugin\PluginEvents;
 use Composer\Plugin\PluginInterface;
 use Composer\Plugin\PreFileDownloadEvent;
 use Dotenv\Dotenv;
-use schliflo\ACFProInstaller\Exceptions\MissingKeyException;
+use dphiffer\ACFProInstaller\Exceptions\MissingKeyException;
 
 /**
  * A composer plugin that makes installing ACF PRO possible
@@ -219,7 +219,7 @@ class Plugin implements PluginInterface, EventSubscriberInterface
      *
      * @access protected
      * @return string The key from the environment
-     * @throws schliflo\ACFProInstaller\Exceptions\MissingKeyException
+     * @throws dphiffer\ACFProInstaller\Exceptions\MissingKeyException
      */
     protected function getKeyFromEnv()
     {
