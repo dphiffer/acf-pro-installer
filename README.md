@@ -2,11 +2,11 @@
 
 *an actually maintained fork of [PhilippBaschke/acf-pro-installer](https://github.com/PhilippBaschke/acf-pro-installer)*
 
-[![Packagist](https://img.shields.io/packagist/v/schliflo/acf-pro-installer.svg?maxAge=3600)](https://packagist.org/packages/schliflo/acf-pro-installer)
-[![Packagist](https://img.shields.io/packagist/l/schliflo/acf-pro-installer.svg?maxAge=2592000)](https://github.com/schliflo/acf-pro-installer/blob/master/LICENSE)
-[![Travis](https://img.shields.io/travis/schliflo/acf-pro-installer.svg?maxAge=3600)](https://travis-ci.org/schliflo/acf-pro-installer)
+[![Packagist](https://img.shields.io/packagist/v/dphiffer/acf-pro-installer.svg?maxAge=3600)](https://packagist.org/packages/dphiffer/acf-pro-installer)
+[![Packagist](https://img.shields.io/packagist/l/dphiffer/acf-pro-installer.svg?maxAge=2592000)](https://github.com/dphiffer/acf-pro-installer/blob/master/LICENSE)
+[![Travis](https://img.shields.io/travis/dphiffer/acf-pro-installer.svg?maxAge=3600)](https://travis-ci.org/dphiffer/acf-pro-installer)
 
-A composer plugin that makes installing [ACF PRO] with [composer] easier. 
+A composer plugin that makes installing [ACF PRO] with [composer] easier.
 
 It reads your :key: ACF PRO key from the **environment** or a **.env file**.
 
@@ -15,7 +15,7 @@ It reads your :key: ACF PRO key from the **environment** or a **.env file**.
 
 ## Usage
 
-**1. Add the package repository to the [`repositories`][composer-repositories] field in `composer.json` 
+**1. Add the package repository to the [`repositories`][composer-repositories] field in `composer.json`
    (based on this [gist][package-gist]):**
 
 ```json
@@ -30,7 +30,7 @@ It reads your :key: ACF PRO key from the **environment** or a **.env file**.
       "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download"
     },
     "require": {
-      "schliflo/acf-pro-installer": "^1.0",
+      "dphiffer/acf-pro-installer": "^1.0",
       "composer/installers": "^1.0"
     }
   }

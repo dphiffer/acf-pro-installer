@@ -1,4 +1,4 @@
-<?php namespace schliflo\ACFProInstaller\Exceptions;
+<?php namespace dphiffer\ACFProInstaller\Exceptions;
 
 /**
  * Exception thrown if the ACF PRO key is not available in the environment
