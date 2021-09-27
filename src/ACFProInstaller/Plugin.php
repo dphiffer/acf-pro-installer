@@ -98,7 +98,9 @@ class Plugin implements PluginInterface, EventSubscriberInterface
         return [
             PackageEvents::PRE_PACKAGE_INSTALL => 'addVersion',
             PackageEvents::PRE_PACKAGE_UPDATE => 'addVersion',
-            PluginEvents::PRE_FILE_DOWNLOAD => 'addKey',
+            PluginEvents::PRE_FILE_DOWNLOAD => [
+                ['addKey', 0]
+            ],
         ];
     }
 
