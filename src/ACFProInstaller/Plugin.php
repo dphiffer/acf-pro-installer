@@ -146,19 +146,13 @@ class Plugin implements PluginInterface, EventSubscriberInterface
         $processedUrl = $event->getProcessedUrl();
 
         if ($this->isAcfProPackageUrl($processedUrl)) {
-            $rfs = $event->getRemoteFilesystem();
-            $acfRfs = new RemoteFilesystem(
+            $event->setProcessedUrl(
                 $this->addParameterToUrl(
                     $processedUrl,
                     'k',
                     $this->getKeyFromEnv()
-                ),
-                $this->io,
-                $this->composer->getConfig(),
-                $rfs->getOptions(),
-                $rfs->isTlsDisabled()
+                )
             );
-            $event->setRemoteFilesystem($acfRfs);
         }
     }
 
