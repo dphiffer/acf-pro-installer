@@ -6,6 +6,8 @@
 [![Packagist](https://img.shields.io/packagist/l/dphiffer/acf-pro-installer.svg?maxAge=2592000)](https://github.com/dphiffer/acf-pro-installer/blob/master/LICENSE)
 [![Travis](https://img.shields.io/travis/dphiffer/acf-pro-installer.svg?maxAge=3600)](https://travis-ci.org/dphiffer/acf-pro-installer)
 
+⚠️ *ACF have announced [first-party support for installing via composer](https://www.advancedcustomfields.com/blog/composer-support-acf-pro/)*
+
 A composer plugin that makes installing [ACF PRO] with [composer] easier.
 
 It reads your :key: ACF PRO key from the **environment** or a **.env file**.
